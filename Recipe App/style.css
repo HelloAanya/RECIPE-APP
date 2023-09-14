@@ -1,0 +1,230 @@
+/* Reset some default styles */
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #020202;
+}
+
+/* Header styling */
+header {
+    background-color: #72686c;
+    color: #070707; 
+    text-align:left;
+    padding: 5px 0;
+}
+
+/* Navigation menu styling */
+nav ul {
+    list-style: none;
+    text-align:right;
+    background-color: rgb(34, 118, 139);
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #090000;
+    font-weight:bolder;
+}
+/* Add other CSS styles above */
+
+.recipe-description {
+    text-align: center; /* Center-align the text */
+    font-weight: bold;
+    color:#b9c9c3;/* Make the text bolder */
+}
+
+
+
+/* Add other CSS styles below */
+
+
+/* Main content styling */
+
+/* Search bar and button styling */
+/* Search bar and button styling */
+/* Container for search bar and button */
+#searchBarContainer {
+    position: fixed;
+    top: 12px;
+    right: 12px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #090909;
+    border-radius: 8px;
+    z-index: 999;
+}
+
+header {
+    background-color: #72686c;
+    color: #070707; 
+    text-align: right; /* Align the header content to the right */
+    padding: 5px 20px; /* Add some padding to create space */
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: space-between; /* Add space between header items */
+    align-items: center; /* Vertically center-align items */
+}
+
+/* Search bar and button styling */
+#searchBarContainer {
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Vertically center-align items */
+}
+
+#searchBar {
+    padding: 8px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+
+#searchForm button {
+    font-size: 15px;
+    padding: 8px 10px;
+}
+
+    /* Add a pointer cursor to the button */
+
+
+
+
+
+
+/* Recipe list styling (customize as needed) */
+/* You can add more specific styles for recipe cards or list items */
+
+/* Add Recipe form styling (customize as needed) */
+/* You can style input fields, labels, buttons, etc. */
+
+/* View Recipes list styling (customize as needed) */
+/* You can style the list of recipes and individual recipe items */
+
+/* Responsive design (customize as needed) */
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+    #searchBar {
+        width: 100%;
+    }
+}
+
+/* Your existing CSS code */
+/* ... */
+
+/* Add the background image code here */
+body {
+    background-image: url('good.png'); 
+    background-size:initial;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Style for buttons */
+.button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hover effect for buttons */
+.button:hover {
+    background-color: #9b1212; /* Change the color to your desired hover effect */
+}
+
+/* Add this CSS code to your style.css file */
+nav ul li {
+    margin-right: 50px; /* Adjust the value to control the spacing between links */
+}
+
+/* Add Recipe Button */
+a[href="add_recipes.html"]:hover {
+    /* Define your hover styles here */
+   
+    /* Change the background color on hover */
+    background-color: #3366cc;
+    color: #ffffff; /* Change the text color on hover */
+    /* You can add other styles like border, padding, etc. */
+}
+
+/* View Recipes Button */
+a[href="view_recipes.html"]:hover {
+    /* Define your hover styles here */
+    background-color: #3366cc; 
+    
+    /* Change the background color on hover */
+    color: #ffffff; /* Change the text color on hover */
+    /* You can add other styles like border, padding, etc. */
+}
+
+/* Contact Button */
+a[href="contact.html"]:hover {
+    /* Define your hover styles here */
+    background-color: #3366cc; /* Change the background color on hover */
+    color: #ffffff; /* Change the text color on hover */
+    /* You can add other styles like border, padding, etc. */
+}
+/* Help Button */
+a[href="Help.html"]:hover {
+    /* Define your hover styles here */
+    background-color: #3366cc; /* Change the background color on hover */
+    color: #ffffff; /* Change the text color on hover */
+    /* You can add other styles like border, padding, etc. */
+}
+/* Home Button */
+a[href="Home.html"]:hover {
+    /* Define your hover styles here */
+    background-color: #3366cc; /* Change the background color on hover */
+    color: #ffffff; /* Change the text color on hover */
+    /* You can add other styles like border, padding, etc. */
+}
+
+
+/* Add styles to the title element */
+header h1 {
+    font-family:'Courier New', Courier, monospace, sans-serif; /* Change the font family to your preference */
+    font-size: 40px; /* Adjust the font size as needed */
+    color: #090909; /* Change the text color to your preferred color */
+    text-align:justify; /* Center align the title */
+    text-transform: uppercase; /* Make the text uppercase */
+    letter-spacing: 2px; /* Add letter spacing for a stylish look */
+    margin-top: 0px; /* Add some top margin to separate it from the navigation */
+}
+
+/* Add hover effect to the title for interactivity */
+header h1:hover {
+    color: #08f198; /* Change the text color on hover */
+}
+
+
+/* Style for search results */
+#searchResults {
+    margin-top: 20px;
+}
+
+#resultsList {
+    list-style: none;
+    padding: 0;
+}
+
+#resultsList li {
+    background-color: #f7f7f7;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+

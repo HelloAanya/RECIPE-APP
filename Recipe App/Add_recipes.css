@@ -1,0 +1,8 @@
+/* Style the header with a background color */
+.header {
+    background-color: #333; /* Replace '#333' with your desired background color */
+    color: #fff; /* Set the text color to white or any color that contrasts well */
+    padding: 10px; /* Add padding to the header for spacing */
+    text-align: center; /* Center align the content in the header */
+}
+
